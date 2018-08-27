@@ -14,6 +14,7 @@ public class Cachorro {
     String raça;
     int idade;
     char sexo;
+    private static int quantidadeCachorro =0;
 
    
     
@@ -22,6 +23,12 @@ public class Cachorro {
         this.raça=raça;
         this.idade=idade;
         this.sexo=sexo;
+        this.quantidadeCachorro++;
     }
     
+    public Cachorro venderCachorro()
+    {
+        this.quantidadeCachorro--;
+    return null;
+    }
 }
