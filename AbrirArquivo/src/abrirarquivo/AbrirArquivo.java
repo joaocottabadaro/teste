@@ -6,6 +6,7 @@
 package abrirarquivo;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 /**
  *
  * @author ice
@@ -15,7 +16,7 @@ public class AbrirArquivo {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
         Arquivo arquivo = new Arquivo();
         arquivo.abrirArquivo();
     }

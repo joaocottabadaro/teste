@@ -5,16 +5,18 @@
  */
 package abrirarquivo;
 
+import java.io.FileNotFoundException;
+
 /**
  *
  * @author ice
  */
 public class B {
-    public void m2()
+    public void m2() throws FileNotFoundException
     {
     m3();
     }
-    public void m3(){
+    public void m3() throws FileNotFoundException{
     C c = new C();
     c.m4();
     
